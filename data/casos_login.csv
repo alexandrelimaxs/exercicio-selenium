@@ -1,0 +1,7 @@
+id,email,senha,tipo,classe,descricao
+L1,nao_cadastrado_${STAMP}@example.com,SenhaErrada1,servidor,E-mail valido nao cadastrado,Login com e-mail nao cadastrado e senha incorreta
+L2,${EMAIL_CADASTRADO},SenhaErrada1,servidor,E-mail valido cadastrado + senha incorreta,Login com e-mail cadastrado e senha incorreta
+L3,semarroba.example.com,SenhaErrada1,email_invalido,Formato sem @,Login com e-mail sem arroba
+L4,semdominio@,SenhaErrada1,email_invalido,Formato sem dominio,Login com e-mail sem dominio
+L5,,SenhaErrada1,email_invalido,E-mail vazio,Login com e-mail vazio
+L6,nao_cadastrado_${STAMP}@example.com,,senha_vazia,Senha vazia,Login com senha vazia

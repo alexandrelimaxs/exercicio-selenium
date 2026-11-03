@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Relatórios e evidências gerados em tempo de execução
+reports/*
+!reports/.gitkeep
+
+# Credenciais e configurações locais
+.env
+
+# Enunciado original do Exercício 2: contém API Key em texto puro
+exercicio-selenium-2.md
+
+# Material de apoio mantido apenas localmente
+docs/
